@@ -6,6 +6,8 @@ A multi-agent meal planning CLI and Terminal User Interface (TUI) built on the *
 
 ## Features & Agent Architecture
 
+> **New to AI Agents & Skills?** Read the full [**Agents & Skills Guide (`docs/agents-and-skills.md`)**](docs/agents-and-skills.md) for a plain-language introduction to what agents and skills are, plus an in-depth breakdown of how each specialist in this project works.
+
 Squad Meals coordinates four specialized agents defined in [`squad.config.ts`](squad.config.ts) and repository-native `.squad/` charters:
 
 1. **Meal Planner (`@meal-planner`)** — [`.squad/agents/meal-planner/charter.md`](.squad/agents/meal-planner/charter.md)
@@ -146,6 +148,8 @@ squad-meals/
 │       ├── researcher/charter.md         # Researcher agent charter
 │       ├── shopper/charter.md            # Shopper agent charter
 │       └── scribe/charter.md             # Scribe agent charter
+├── docs/
+│   └── agents-and-skills.md              # Overview of AI agents, skills & project architecture
 ├── squad.config.ts                       # Programmatic @bradygaster/squad-sdk config
 ├── src/
 │   ├── index.ts                          # CLI entry point & argument parser
